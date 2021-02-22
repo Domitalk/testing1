@@ -9,4 +9,13 @@ Enzyme.configure({ adapter: new EnzymeAdapter() })
 
 test('renders learn react link', () => {
   const wrapper = shallow(<App />); 
+
+  // docs at jest expect 
+  // expect(wrapper).toBeTruthy();
+  
+
+  
+
+  // .debug will return the code as a string 
+  // console.log(wrapper.debug());
 });
